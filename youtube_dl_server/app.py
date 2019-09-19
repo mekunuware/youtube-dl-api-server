@@ -3,7 +3,7 @@ import logging
 import traceback
 import sys
 
-from flask import Flask, Blueprint, current_app, jsonify,itsdangerous, request, redirect, abort
+from flask import Flask, Blueprint, current_app, jsonify, request, redirect, abort
 import youtube_dl
 from youtube_dl.version import __version__ as youtube_dl_version
 
