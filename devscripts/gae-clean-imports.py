@@ -2,7 +2,7 @@ from __future__ import unicode_literals
 
 import sys
 import re
-from io import open
+from codecs import open
 
 filename = sys.argv[1]
 
