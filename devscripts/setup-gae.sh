@@ -25,6 +25,7 @@ SITE_PACKAGES=$(echo "${VENV}"/lib/*/site-packages)
 cp -R "${SITE_PACKAGES}/youtube_dl" "${LIB_DIR}"
 cp -R "${SITE_PACKAGES}/flask" "${LIB_DIR}"
 cp -R "${SITE_PACKAGES}/werkzeug" "${LIB_DIR}"
+cp -R "${SITE_PACKAGES}/itsdangerous.py" "${LIB_DIR}"
 cp -R "${SITE_PACKAGES}/click" "${LIB_DIR}"
 
 (
